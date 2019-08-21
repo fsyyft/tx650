@@ -1,0 +1,302 @@
+@charset "utf-8";
+/*
+---------------------------------------
+# Device:S/M/L Regions
+# File:css/master.css
+# Version:1.00
+# Update:2013.04.01
+---------------------------------------
+*/
+/*-----------------------------------
+Common
+-----------------------------------*/
+html { font-size:16px; }
+body { font:16px/1.2 sans-serif; width:1080px; }
+/*-----------------------------------
+Box
+-----------------------------------*/
+.box-content { max-width:1080px; padding:0 50px; }
+/*-----------------------------------
+Header
+-----------------------------------*/
+header h1 { min-height:95px; padding:25px 0 0; }
+header h1 .logo img { width:90px; }
+header h1 .title { margin-top:18px; font-size:38px; }
+/*-----------------------------------
+Header Menu and Search
+-----------------------------------*/
+/* Header Menu Button */
+/* Header Search Button */
+/* Shared Style for Search Button */
+.form-search div { height:46px; border:1px solid #404040; }
+.form-search p { margin:0 109px 0 0; border-right:1px solid #404040; height:44px; }
+[dir="rtl"] .form-search p { margin-left:109px; border-left:1px solid #404040; }
+.form-search .form-search-input { border-top:1px solid #cacaca; padding:0 10px; font-size:20px; }
+/* IE8 */
+.form-search .form-search-input { padding-top:10px; }
+.form-search .form-search-button { border-width:1px; padding:8px 43px 7px 40px; width:24px; height:27px; }
+[dir="rtl"] .form-search .form-search-button { padding-right:43px; padding-left:40px; }
+/* Header Search Box Speicif Styles */
+#header-search { padding:57px 0 0; }
+#header-search div { height:36px; }
+#header-search p { margin-right:74px; height:34px; }
+[dir="rtl"] #header-search p { margin-left:74px; }
+#header-search .form-search-button { padding:5px 26px 5px 27px; width:19px; height:22px; }
+[dir="rtl"] #header-search .form-search-button { padding-left:26px; padding-right:27px; }
+/* -----------------------------------
+Category name, Model name, Brand Name
+-----------------------------------*/
+.main .main-header { border:1px solid transparent; padding-bottom:8px; }
+.main .main-header h1 { margin-top:21px; margin-bottom:20px; }
+.main .main-header h1 .category-name { font-size:18px; }
+.main .main-header h1 .model-name { margin-top:6px; font-size:26px; }
+.main .main-header h2 { height:42px; }
+/*-----------------------------------
+Section (Contents Area)
+-----------------------------------*/
+.content { font-size:18px; }
+.content h2 { border-bottom:1px solid #dddddd; padding:0 0 16px; font-size:28px; }
+/* (L Region) vertical line  */
+.main .box-content { background-position:32.5% 40.2px; background-repeat: repeat-y; }
+[dir="rtl"] .main .box-content { background-position:67.5% 40.2px; }
+/* hide structure-flat && top page */
+/* IE8 doesn't support :last-child */
+/*-----------------------------------
+Contents Page Nav
+-----------------------------------*/
+/* #top is the last resort to achieve higher specificity */
+#top .page-nav { padding-bottom:15px; }
+#top .page-nav ul li { border-left:1px solid #999999; padding:0 13px; font-size:16px; }
+[dir="rtl"] #top .page-nav ul li { border-right:1px solid #999999; }
+[dir="rtl"] #top .page-nav ul li:first-child { padding-left:13px; }
+#top .page-nav .print { font-size:16px; }
+#top .page-nav .print a { padding-left:23px; }
+[dir="rtl"] #top .page-nav .print a { padding-right:23px; }
+/*-----------------------------------
+Parts Common
+-----------------------------------*/
+/* Related Topic */
+/* #top is the last resort to achieve higher specificity */
+#top .content .related-topic { margin:43px 0 2px 0; border:1px solid #dddddd; }
+#top .content .related-topic h3 { padding:9px 15px; border:1px solid #ffffff; font-size:20px; }
+#top .content .related-topic ul { padding:25px 0 7px; border-top:1px solid #dddddd; font-size:20px; }
+#top .content .related-topic li { margin:0px 15px 20px; padding:0 0 0 14px; }
+[dir="rtl"] #top .content .related-topic li { padding-right:14px; }
+/* Return to Page Top */
+.return-pagetop { margin:25px 4px 49px; }
+.return-pagetop > a { font-size:16px; line-height:18px; }
+.return-pagetop > a:before { width:19px; height:19px; margin:1px 2px; }
+/*-----------------------------------
+Language Select
+-----------------------------------*/
+.language .image { padding:24.2px 0 0; }
+.language .col-2 li { margin-bottom:10px; }
+.language .col-3 li { margin-bottom:10px; }
+/*-----------------------------------
+Shared Style for Lists
+-----------------------------------*/
+/* Pattern 1: Title */
+.category-list .content .list li { border-bottom:1px solid #dddddd; }
+.category-list .content .list li a { padding:23px 10px; font-size:20px; }
+/* Pattern 2: Title and Description */
+.subcategory-list .content .list li a > span,
+.top .content .information .pattern3 .list li a > span,
+.top .content .information .pattern4 .list li a > span,
+.search .content .list li a > span { font-size:20px; }
+.subcategory-list .content .list li a > p,
+.top .content .information .pattern3 .list li a > p,
+.top .content .information .pattern4 .list li a > p,
+.search .content .list li a > p { padding-top:8px; font-size:18px; }
+/*-----------------------------------
+Category List / Sub Category List
+-----------------------------------*/
+.subcategory-list .content .list li { border-bottom:1px solid #dddddd; }
+.subcategory-list .content .list li a { padding:20px 10px 24px; }
+/*-----------------------------------
+Top Page
+-----------------------------------*/
+.top .content .main-visual { padding:10px 0 0; }
+.top .content .main-visual img { max-height:331px; }
+.top .content .return-pagetop { margin-left:4px; margin-right:4px; }
+/* Infromation Style */
+.top .content .information { margin-top:20px; }
+.top .content .information .pattern1,
+.top .content .information .pattern2,
+.top .content .information .pattern3,
+.top .content .information .pattern4 { padding-top:20px; }
+.top .content .information .pattern1:first-child,
+.top .content .information .pattern4:first-child { border-top:1px solid #dddddd; }
+.top .content .information > div > h2 { padding:19px 0 10px; }
+.top .content .information > div > p { margin-bottom:20px; font-size:18px; }
+/* Shared Style for Pattern 1 and Pattern 4 */
+.top .content .information .pattern1,
+.top .content .information .pattern4 { padding-left:4px; padding-right:4px; }
+/* Pattern 2 */
+.top .content .information .pattern2 .list { border-top:1px solid #dddddd; }
+.top .content .information .pattern2 .list li { padding:20px 10px; border-bottom:1px solid #dddddd; font-size:20px; }
+.top .content .information .pattern2 .list li > span { padding-bottom:10px; font-size:16px; }
+/* Shared Style for Pattern 3 and Pattern 4 */
+/* See "Shared Style for Lists" */
+.top .content .information .pattern3 .list li,
+.top .content .information .pattern4 .list li { border-bottom:1px solid #dddddd; }
+.top .content .information .pattern4 .list li { border:1px solid #dddddd; }
+.top .content .information .pattern3 .list li a img,
+.top .content .information .pattern4 .list li a img { top:15px; left:15px; width:92px; }
+[dir="rtl"] .top .content .information .pattern3 .list li a img,
+[dir="rtl"] .top .content .information .pattern4 .list li a img { right:15px; }
+.top .content .information .pattern3 .list li a img ~ *,
+.top .content .information .pattern4 .list li a img ~ * { margin-left:112px; }
+[dir="rtl"] .top .content .information .pattern3 .list li a img ~ *,
+[dir="rtl"] .top .content .information .pattern4 .list li a img ~ * { margin-right:112px; }
+/* Pattern 3*/
+.top .content .information .pattern3 h2 { padding-bottom:13px; padding-left:6px; padding-right:6px; font-size:22px; }
+.top .content .information .pattern3 .list li a { padding:20px 10px 21px; min-height:82px; }
+/* Pattern 4 */
+.top .content .information .pattern4 .list li a { padding:15px 10px; min-height:92px; }
+/* Pattern 5 */
+.top .content .information .pattern5 { margin:16px 0 0; padding:0 4px; }
+.top .content .information .pattern5 dl { padding:15px 10px; border:1px solid #dddddd; }
+.top .content .information .pattern5 dl dt { font-size:18px; }
+.top .content .information .pattern5 dl dd { padding-top:8px; }
+/*-----------------------------------
+Contents List
+-----------------------------------*/
+.contents-list h3 { padding:26px 0 5px; font-size:23.4px; }
+.contents-list h4 { padding-top:11px; font-size:19.8px; }
+.contents-list .list { margin:3px 0 0 25px; }
+[dir="rtl"] .contents-list .list { margin-right:25px; }
+.contents-list .list + h3 { padding-top:35px; }
+.contents-list .list li { padding:4px 0 5px; }
+/*-----------------------------------
+Contents Heading / Contents Caption
+-----------------------------------*/
+.contents .content,
+.search .content { padding:0 8px; }
+.contents .content h2,
+.contents .content .page-nav,
+.search .content h2,
+.search .content .page-nav { margin-left:-8px; margin-right:-8px; }
+.contents-list .content { padding:0 8px; }
+.contents-list .content h2,
+.contents-list .content .page-nav { margin-left:-8px; margin-right:-8px; }
+.contents .content h4 span.note { border:#cc0000 solid 1px; }
+/* .mac .contents h4 span.note { padding-top: 0.25em; } */
+.contents .content h4 span.hint { border:#666666 solid 1px; }
+/* Example / Result */
+/* Reset Heading */
+/*-----------------------------------
+Contents Image再定義
+-----------------------------------*/
+/* Position */
+/* Basic */
+/* List Image */
+/*-----------------------------------
+Contents Paragraph再定義
+-----------------------------------*/
+/* Stepresult */
+/*-----------------------------------
+Contents List / Page Link 再定義
+-----------------------------------*/
+/* Basic*/
+/*Combination（h+list）*/
+/*.contents .content p + ul,
+.contents .content p + ol { padding: 1em 0 0.7em 1.25em; }
+.contents .content p + ul li:last-child,
+.contents .content p + ol li:last-child { padding-bottom: 0; }*/
+/* List */
+/* Step */
+/* Substep */
+/* Choices */
+/* Img */
+/* Name */
+.contents .content ol.name-list > li:before { border:#333 solid 1px; }
+/* Name ie6 hacks */
+/* Name ie7 hacks */
+*:first-child+html .contents .content ol.name-list li { margin:0 0 1px 0; }
+/* Option */
+/* Small Size */
+/* Page link */
+/*-----------------------------------
+ Data List（新規追加）
+-----------------------------------*/
+/*-----------------------------------
+ Contents Table（再定義）
+-----------------------------------*/
+.contents .content table th,
+.contents .content table td { border:#c7c7c7 solid 1px; }
+/*-----------------------------------
+拡張要素
+-----------------------------------*/
+.static .image { padding:24.2px 0 0; }
+.static .list { margin-top:15px; }
+.static .list li { margin:0 0 10px; }
+.static .sub-content { border-top:1px solid #ddd; margin-top:25px; padding-top:20px; }
+.static .sub-content dl { font-size:18px; }
+.static .sub-content dl dt { margin-bottom:5px; }
+.static .sub-content dl dd { margin:0 0 20px; }
+/* Position */
+/* Basic */
+/*-----------------------------------
+Search Page
+-----------------------------------*/
+.search .content h2 span { font-size:18px; }
+.search .content .list { margin:0 -8px; padding:25px 8px 0; border-bottom:1px solid #dddddd; }
+.search .content .list li { padding-bottom:33px; }
+#id_search_status { margin:30px -8px 27px; }
+#id_search_status .turn-page a { margin:0 24px; padding:5px 8px; border:1px solid #dddddd; font-size:20px; }
+#id_search_status .turn-page a.left,
+#id_search_status .turn-page a.right { margin:0 19px; padding:6px 10px 7px; font-size:15px; }
+#id_search_status .turn-page a.left img,
+#id_search_status .turn-page a.right img { width:10px; }
+#id_search_status .turn-page .item-number { margin-top:24px; font-size:18px; }
+.search-box.foot { margin:30px -8px 25px; border:1px solid #dddddd; padding:1px; }
+.search-box.foot .inner { padding:9px 8px; }
+/* See "Shared Style for Search Button" for M and L Style*/
+.search-box.foot + .return-pagetop { margin-left:-8px; margin-right:-8px; }
+.search .guidance { padding:22px 0 0; }
+.search .guidance h3 { font-size:20px; }
+.search .guidance p { margin-top:33px; font-size:18px; }
+.search .guidance ul { font-size:18px; padding:5px 0 0 25px; }
+[dir="rtl"] .search .guidance ul { padding-right:25px; }
+.search .guidance li { padding:5px 0 0; }
+/*-----------------------------------
+Menu
+-----------------------------------*/
+#menu { padding:24.2px 0 0; }
+.structure-flat #menu { padding-top:29.2px; }
+.top.structure-flat #menu { padding-top:24.8px; }
+#menu > ul > li { margin-bottom:10px; }
+#menu > ul > li > a { margin:0 0 0 -29px; border:1px solid transparent; padding:0 0 0 29px; font-size:26.8px; }
+[dir="rtl"] #menu > ul > li > a { border:1px solid transparent; margin-right:-29px; padding-right:29px; }
+#menu > ul > li > a > span { padding:9px 9px 15px 48px; }
+[dir="rtl"] #menu > ul > li > a > span { padding-left:9px; padding-right:48px; }
+.js #menu > ul > li > a > img { margin-top:-9px; left:6px; }
+[dir="rtl"] .js #menu > ul > li > a > img { right:6px; }
+#menu > ul > li > ul > li > a { margin:2px 0 0; border:1px solid transparent; padding:10px 9px; font-size:20px; }
+.structure-flat #menu > ul > li > ul > li > a { padding-left:5px; padding-right:5px; }
+.top.structure-flat #menu > ul > li > ul > li > a { font-size:24px; margin-bottom:10.2px; }
+#menu > ul > li > ul > li > a { margin-left:1px; margin-right:0px; }
+[dir="rtl"] #menu > ul > li > ul > li > a { margin-left:0px; margin-right:1px; }
+/*-----------------------------------
+Term Page
+-----------------------------------*/
+.terms.contents .content h2 span.publication-year { margin-top:10px; font-size:12px; }
+.terms.contents .content ul li { padding:0 0 10px 1.5em; background-position:left 5px; }
+[dir=rtl] .terms.contents .content ul li { padding:0 1.5em 10px 0; background-position:right 5px; }
+.terms.contents .content ul li h4 { padding:0 0 10px; }
+.terms.contents .content ul li ul li { padding:0 0 5px; }
+.terms.contents .content ul table { margin-bottom:5px; }
+.terms.contents .content ul table td ul { padding:5px 0 5px 1.5em; }
+[dir=rtl] .terms.contents .content ul table td ul { padding:5px 1.5em 0 5px; }
+.terms.contents .content ul table td ul li { padding:4px 0 2px; }
+.terms.contents .content ul table td ul li span { font-size:11px; }
+/*-----------------------------------
+Footer
+-----------------------------------*/
+footer { margin-top:50px; padding:30px 0 50px; }
+footer .footer-group1 { padding:0 5px; font-size:16px; }
+footer .footer-group2 { font-size:12px; }
+footer .footer-manual-number { margin-bottom:6px; }
+/*-----------------------------------
+Text wrapping
+-----------------------------------*/

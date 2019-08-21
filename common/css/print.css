@@ -1,0 +1,87 @@
+@charset "utf-8";
+/*
+---------------------------------------
+# Device: S/M/L Regions
+# File: css/print.css
+# Version: 1.0
+# Update: 2013.03.22
+---------------------------------------
+*/
+
+/*-----------------------------------
+Common
+-----------------------------------*/
+body { padding:25px 30px; width: 740px; margin:auto; background:#ffffff; color:#000000; }
+a:link,
+a:visited { text-decoration:underline; color:#000000; }
+img { border:0 }
+
+header h1 a.title,
+#header-items,
+.page-nav,
+.return-pagetop,
+.related-topic,
+#menu,
+footer { display:none !important }
+
+.box-content,
+.content { float:none !important; margin:0 !important; width:100% !important; max-width:none !important; padding:0 !important; background:#ffffff; }
+
+table,
+th,
+td { border-collapse:collapse; border-spacing:0; }
+
+
+/*-----------------------------------
+Header
+-----------------------------------*/
+header { background:#ffffff;}
+header h1 { padding:20px 0 25px; width:auto; height:auto; min-height:0; }
+header h1 .logo img { width:auto; height:auto; }
+header h2 { display:none; }
+
+/*-----------------------------------
+Main Header
+-----------------------------------*/
+.main .main-header h1 { padding:10px 0 15px; font-size:16px;}
+.main .main-header h1 .category-name { display: inline-block; margin:0; padding:0; font-size:16px; }
+.main .main-header h1 .model-name { display: inline-block; margin: 0 0 0 0.75em; padding:0; font-size:32px; }
+.main .main-header h1 .model-name .model-number { display: inline-block; margin-left: 1em; font-size: 12px; }
+
+
+/*-----------------------------------
+Contents Heading
+-----------------------------------*/
+.contents .content h2 { margin-left:0; margin-right:0; border-bottom: 1px solid #333; padding: 0 0 18px; font-size:26px; }
+.contents .content h3 { font-size: 21px; }
+.contents .content h4 { font-size: 19px; }
+.contents .content h5 { font-size: 18px; }
+.contents .content h4 span.note { font-size: 13px; }
+.contents .content h4 span.hint { border: #000 solid 1px; font-size: 13px; color: #000; }
+.contents .content h5 span.note { font-size: 12px; }
+.contents .content h5 span.hint { border: #000 solid 1px; font-size: 12px; color: #000; }
+
+
+/*-----------------------------------
+Contents Paragraph
+-----------------------------------*/
+.contents .content .article p.option-text { font-size: 16px; }
+.contents .content .article p.supplemental { font-size: 15px; color:#666666; }
+/* Basic */
+.contents .content .article ul.list { font-size: 17px; }
+/* Small Size 01 */
+.contents .content .article ul.small-list { font-size: 15px; }
+/* Step */
+.contents .content .article ol.step-list { font-size: 17px; }
+/* Name */
+.contents .content .article ol.step-list ul.name-List { font-size: 16px;}
+
+
+/*-----------------------------------
+Contents List / Page Link / Contents Table
+-----------------------------------*/
+/* Option */
+.contents .content .article ul li ul.option-list li { font-size: 16px; }
+/* Contents Table */
+.contents .content .article table th { font-size: 17px; }
+.contents .content .article table td { font-size: 17px; }

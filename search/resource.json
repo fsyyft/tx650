@@ -1,0 +1,73 @@
+﻿var resource = [
+	{
+		id:		"search_prev",
+		value:	" « "
+	},{
+		id:		"search_next",
+		value:	" » "
+	},{
+		id:		"enter_search_keyword",
+		value:	"搜索"
+	},{
+		id:		"search_word_open",
+		value:	"“"
+	},{
+		id:		"search_word_close",
+		value:	"”"
+	},{
+		id:		"search_found_message_1_prefix",
+		value:	""
+	},{
+		id:		"search_found_message_1_suffix",
+		value:	"的搜索结果"
+	},{
+		id:		"search_found_count_message_prefix",
+		value:	"第 "
+	},{
+		id:		"search_found_sub_message_to",
+		value:	"-"
+	},{
+		id:		"search_found_sub_message_1",
+		value:	" 项，共 "
+	},{
+		id:		"search_found_count_message_suffix",
+		value:	" 项"
+	},{
+		id:		"search_found_count_message_open",
+		value:	"("
+	},{
+		id:		"search_found_count_message_close",
+		value:	")"
+	},{
+		id:		"search_none_found_message_title",
+		value:	"找不到任何结果。"
+	},{
+		id:		"search_none_found_message_body",
+		value:	"搜索提示："
+	},{
+		id:		"search_none_found_message_1",
+		value:	"检查拼写。"
+	},{
+		id:		"search_none_found_message_2",
+		value:	"尝试使用更为普遍的词语。"
+	},{
+		id:		"search_none_found_message_3",
+		value:	"尝试使用具有相同含义的不同词语。"
+	},{
+		id:		"search_none_found_message_4",
+		value:	"使用更少的词语扩大搜索范围。"
+	}
+];
+var constant = [
+	{
+		/* Remove "//" below to specify the language code. Simplified Chinese must be specified as "zh-CN". Traditional Chinese must be specified as "zh-TW". */
+		//lang_code:					"xx-XX",
+		search_show_around:			25,
+		search_show_result_count:	10,
+		search_page_max_range:		3,
+		search_help:				"search",
+		search_option_multibyte:	1,	// [0|1]
+		join_chapters:				0,	// [0|1]
+		markup_glossary:			1	// [0|1]
+	}
+];
